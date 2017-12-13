@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item
+            android:id="@+id/mn_apontar_eventos"
+            android:title="@string/txt_apontar_eventos"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/mn_listar_eventos"
+            android:title="@string/txt_listar_eventos"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/mn_enviar"
+            android:title="@string/txt_enviar"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/mn_baixar_dados"
+            android:icon="@mipmap/ic_baixar_dados"
+            android:title="@string/txt_baixar_dados"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/mn_configuracores"
+            android:title="@string/txt_configuracores"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/mn_sair"
+            android:title="@string/txt_sair"
+            app:showAsAction="ifRoom" />
+    </group>
+</menu>

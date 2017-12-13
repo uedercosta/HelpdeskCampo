@@ -13,4 +13,10 @@
     <string name="titulo_ult_atualizacao_usuarios">Última atualização de usuários</string>
     <string name="sumario_exclusao">Informe a quantidade de dias para excluir os dados enviados</string>
     <string name="titulo_exclusao">Exclusão de Dados</string>
+    <string name="txt_apontar_eventos">Apontar Eventos</string>
+    <string name="txt_listar_eventos">Listar Eventos</string>
+    <string name="txt_enviar">Enviar</string>
+    <string name="txt_configuracores">Configurações</string>
+    <string name="txt_sair">Sair</string>
+    <string name="txt_baixar_dados">Sincronizar Dados</string>
 </resources>
