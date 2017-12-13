@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/info_server">
+
+        <EditTextPreference
+            android:defaultValue="www.goiasa.com.br"
+            android:key="url_servidor"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/sumario_url_servidor"
+            android:title="@string/titulo_url_servidor" />
+        <EditTextPreference
+            android:defaultValue="8080"
+            android:inputType="number"
+            android:key="porta_servidor"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/sumario_porta"
+            android:title="@string/titulo_porta" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/info_sincronizacao_usuario">
+
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="atualizar_usuarios"
+            android:title="@string/titulo_atualizar_usuarios" />
+
+        <EditTextPreference
+            android:defaultValue="10"
+            android:inputType="number"
+            android:key="dias_sincroniza_usuarios"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/sumario_usuarios"
+            android:title="@string/titulo_usuarios" />
+
+        <EditTextPreference
+            android:defaultValue="10"
+            android:inputType="number"
+            android:key="exclusao_dados"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/sumario_exclusao"
+            android:title="@string/titulo_exclusao" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/info_sincronizacao">
+
+        <Preference
+            android:key="ult_atualizacao_usuario"
+            android:summary="99/99/9999"
+            android:title="@string/titulo_ult_atualizacao_usuarios" />
+
+
+    </PreferenceCategory>
+</PreferenceScreen>

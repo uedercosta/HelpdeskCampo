@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HelpDesk Campo</string>
+    <string name="titulo_url_servidor">Endereço ou IP do servidor</string>
+    <string name="sumario_url_servidor">Informe o endereço ou o IP do servidor</string>
+    <string name="sumario_porta">Informe a porta do servidor</string>
+    <string name="titulo_porta">Porta de Conexão</string>
+    <string name="info_server">Informações do Servidor</string>
+    <string name="info_sincronizacao_usuario">Sincronização de Dados</string>
+    <string name="titulo_usuarios">Intervalo de Sincronização de Usuários</string>
+    <string name="sumario_usuarios">Informe a quantidade de dias que deve ser sincronizado os usuários</string>
+    <string name="titulo_atualizar_usuarios">Obrigar a atualização de usuários</string>
+    <string name="info_sincronizacao">Status das Atualizações</string>
+    <string name="titulo_ult_atualizacao_usuarios">Última atualização de usuários</string>
+    <string name="sumario_exclusao">Informe a quantidade de dias para excluir os dados enviados</string>
+    <string name="titulo_exclusao">Exclusão de Dados</string>
+</resources>
